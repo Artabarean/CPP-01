@@ -6,8 +6,13 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/26 14:19:06 by atabarea          #+#    #+#             */
-/*   Updated: 2026/02/26 14:19:52 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/02/27 15:22:29 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
+Zombie	*newZombie(std::string name)
+{
+	return (new Zombie(name));
+}

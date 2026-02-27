@@ -6,8 +6,13 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/26 14:19:31 by atabarea          #+#    #+#             */
-/*   Updated: 2026/02/26 14:19:42 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/02/27 15:58:24 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
+
+void	randomChump(std::string name)
+{
+	Zombie zombie(name);
+}
