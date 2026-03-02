@@ -5,20 +5,20 @@
 #                                                     +:+ +:+         +:+      #
 #    By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/02/26 14:16:15 by atabarea          #+#    #+#              #
-#    Updated: 2026/03/02 10:05:40 by atabarea         ###   ########.fr        #
+#    Created: 2026/03/02 10:10:15 by atabarea          #+#    #+#              #
+#    Updated: 2026/03/02 12:49:23 by atabarea         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= Zombie
+NAME		= zombie_Horde
 CXX			= c++
 CPPFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 SRC		= \
 	Zombie.cpp \
-	newZombie.cpp \
-	main.cpp \
-	randomChump.cpp
+	zombieHorde.cpp \
+	main.cpp
+
 OBJS	= $(SRC:.cpp=.o)
 
 all: $(NAME)

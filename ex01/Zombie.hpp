@@ -5,32 +5,28 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/02/26 14:16:56 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/02 10:05:16 by atabarea         ###   ########.fr       */
+/*   Created: 2026/03/02 10:10:45 by atabarea          #+#    #+#             */
+/*   Updated: 2026/03/02 13:02:17 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ZOMBIE_HPP
 # define ZOMBIE_HPP
-
-# include <cstring>
-# include <cstdio>
-# include <cstdlib>
+# include <string>
 # include <iostream>
+# include <cstdlib>
 
 class Zombie
-{	
-	
+{
 	public:
 		Zombie();
 		~Zombie();
-		Zombie(std::string input);
+		void	set_name(std::string name);
 		void	announce(void);
 	private:
 		std::string name;
-		
 };
 
-void 	randomChump( std::string name );
-Zombie*	newZombie( std::string name );
+Zombie* zombieHorde(int N, std::string name);
+
 #endif
