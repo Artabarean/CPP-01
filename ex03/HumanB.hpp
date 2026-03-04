@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 11:07:46 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/03 11:47:07 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/04 11:12:55 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,13 @@
 class HumanB
 {
 	public:
-		HumanB(void);
+		HumanB(std::string name);
 		~HumanB(void);
+		void	setWeapon(Weapon &weapon);
 		void	attack();
 	private:
 		std::string name;
-		std::string weapon;
+		Weapon *weapon;
 };
 
 #endif
