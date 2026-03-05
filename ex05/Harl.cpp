@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 11:15:04 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/05 12:04:44 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/05 12:38:55 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,5 +47,13 @@ void	Harl::error(void)
 
 void	Harl::complain(std::string level)
 {
-	
-}
+	std::string issues[4];
+	issues[0] = "DEBUG"; issues[1] = "INFO"; issues[2] = "WARNING"; issues[3] = "ERROR";
+	for (size_t i = 0; i < 4; i++)
+	{
+		if (level == issues[i])
+		{
+
+		}
+	}
+} 
