@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/03/04 11:38:16 by atabarea          #+#    #+#              #
-#    Updated: 2026/03/05 10:50:23 by atabarea         ###   ########.fr        #
+#    Created: 2026/03/05 11:08:21 by atabarea          #+#    #+#              #
+#    Updated: 2026/03/05 11:14:26 by atabarea         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= Sed_is_for_losers
+NAME		= Harl_2.0
 CXX			= c++
 CPPFLAGS	= -Wall -Wextra -Werror -std=c++98
 
