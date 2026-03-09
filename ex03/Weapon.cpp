@@ -6,15 +6,11 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 11:07:53 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/04 11:00:20 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 10:19:32 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
-
-Weapon::Weapon(void)
-{
-}
 
 Weapon::Weapon(std::string value)
 {

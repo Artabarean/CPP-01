@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/26 14:18:10 by atabarea          #+#    #+#             */
-/*   Updated: 2026/02/27 16:08:35 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 09:46:13 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,6 @@ Zombie::Zombie(std::string input)
 {
 	announce();
 }
-
-Zombie::Zombie(void)
-{}
 
 Zombie::~Zombie(void)
 {

@@ -6,11 +6,11 @@
 #    By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/05 11:08:21 by atabarea          #+#    #+#              #
-#    Updated: 2026/03/06 10:03:58 by atabarea         ###   ########.fr        #
+#    Updated: 2026/03/09 12:51:01 by atabarea         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= Harl_2.0
+NAME		= Harl
 CXX			= c++
 CPPFLAGS	= -Wall -Wextra -Werror -std=c++98
 

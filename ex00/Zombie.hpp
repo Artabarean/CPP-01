@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/26 14:16:56 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/02 10:05:16 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 09:47:36 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,8 @@ class Zombie
 {	
 	
 	public:
-		Zombie();
-		~Zombie();
 		Zombie(std::string input);
+		~Zombie();
 		void	announce(void);
 	private:
 		std::string name;

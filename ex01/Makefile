@@ -6,11 +6,11 @@
 #    By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/02 10:10:15 by atabarea          #+#    #+#              #
-#    Updated: 2026/03/02 12:49:23 by atabarea         ###   ########.fr        #
+#    Updated: 2026/03/09 10:01:30 by atabarea         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= zombie_Horde
+NAME		= Moar_brainz!
 CXX			= c++
 CPPFLAGS	= -Wall -Wextra -Werror -std=c++98
 

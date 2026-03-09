@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/05 11:15:04 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/06 11:42:43 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 12:52:21 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	Harl::info(void)
 {
 	std::cout << "[ INFO ]" << std::endl;
 	std::cout << "I cannot believe adding extra bacon costs more money. "
-		<< "You didn't putenough bacon in my burger! If you did, "
+		<< "You didn't put enough bacon in my burger! If you did, "
 		<< "I wouldn't be asking for more!\n" << std::endl;
 }
 
@@ -57,11 +57,11 @@ void	Harl::generic(void)
 void	Harl::complain(std::string level)
 {
 	const std::string	issues[4] = {"DEBUG","INFO","WARNING","ERROR"};
-	t_levels			type[5] = {DEBUG, INFO, WARNING, ERROR, DEFAULT};
+	t_levels			type[4] = {DEBUG, INFO, WARNING, ERROR};
 	int					complaint;
 	int					i = 0;
 
-	while (i < 5)
+	while (i < 4)
 	{
 		if (issues[i] == level)
 		{
@@ -69,7 +69,7 @@ void	Harl::complain(std::string level)
 			break;
 		}
 		else
-			complaint = type[i];
+			complaint = DEFAULT;
 		i++;
 	}
 	switch (complaint)
@@ -85,7 +85,7 @@ void	Harl::complain(std::string level)
 			this->error();
 			break;
 		}
-		case 4:
+		default:
 			this->generic();
 	}
 } 

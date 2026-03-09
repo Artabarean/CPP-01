@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/02 10:41:42 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/02 14:10:20 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 10:00:49 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	main(int argc, char *argv[])
 	{
 		if (argc > 3)
 			std::cout << "Too many arguments have been passed, please enter just one" << std::endl; 
-		std::cout << "No arguments have been passed, no zombies will be created" << std::endl;
+		std::cout << "Not enough arguments have been passed, no zombies will be created" << std::endl;
 		return (1);
 	}
 	if (check_num(argv[1]) == false)
@@ -38,6 +38,10 @@ int	main(int argc, char *argv[])
 	}
 	int	N = std::atoi(argv[1]);
 	Zombie *zombie_array = zombieHorde(N, argv[2]);
+	for (int i = 0; i < N; i++)
+	{
+		zombie_array[i].announce();
+	}
 	delete[] zombie_array;
 	return (0);
 }

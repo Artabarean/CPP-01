@@ -6,7 +6,7 @@
 /*   By: atabarea <atabarea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/03 11:06:21 by atabarea          #+#    #+#             */
-/*   Updated: 2026/03/04 10:50:16 by atabarea         ###   ########.fr       */
+/*   Updated: 2026/03/09 10:19:37 by atabarea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 class Weapon
 {
 	public:
-		Weapon(void);
 		Weapon(std::string value);
 		~Weapon(void);
 		std::string const &getType(void);
